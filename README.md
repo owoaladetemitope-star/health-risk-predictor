@@ -13,14 +13,21 @@ This project is a machine learning web application that predicts the likelihood 
 - Shows prediction probability
 - Saves predictions to a SQLite database
 - Displays recent prediction history in the app
+- Evaluates model performance using accuracy, precision, recall, F1-score, and confusion matrix
+- Compares Random Forest performance with Logistic Regression
+- Visualizes feature importance to show which health indicators influence predictions most
+- Includes an interactive Power BI dashboard for analytics and risk visualization
 
 ## Technologies Used
 - Python
 - Streamlit
 - pandas
 - scikit-learn
+- matplotlib
+- seaborn
 - joblib
 - SQLite
+- Power BI
 
 ## How It Works
 1. The user enters health related values into the app.
@@ -31,6 +38,30 @@ This project is a machine learning web application that predicts the likelihood 
 4. The result is shown in the interface.
 5. The prediction is saved to a SQLite database with a timestamp.
 6. The user can view the most recent saved predictions in the history section.
+
+## Model Performance
+Random Forest model performance:
+- Accuracy: 91.5%
+- Precision, Recall, and F1-score included through classification report
+- Confusion matrix visualization added for performance evaluation
+
+Model comparison:
+- Logistic Regression Accuracy: 86.6%
+
+Feature importance analysis showed Vitamin B12 as the strongest predictor, followed by iron, BMI, and age.
+
+## Power BI Dashboard
+A Power BI dashboard was created to analyze prediction outcomes and healthcare risk patterns interactively.
+
+Dashboard features:
+- Total predictions KPI
+- Average BMI KPI
+- Average Age KPI
+- Risk prediction distribution bar chart
+- Prediction breakdown pie chart
+- Interactive risk filter slicer
+
+This dashboard adds a business intelligence analytics layer to the machine learning project.
 
 ## Project Files
 - app.py — main Streamlit application
@@ -49,6 +80,7 @@ streamlit run app.py
 
 ## Example Use Case
 This project can be used as a basic health risk screening tool that demonstrates how machine learning can support simple prediction tasks based on input health data.
+This project can also be used as a portfolio demonstration of machine learning model evaluation, healthcare risk analytics, and business intelligence dashboard reporting.
 
 ## Future Improvements
 - Add more health features to improve prediction quality
