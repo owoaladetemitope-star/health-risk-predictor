@@ -66,25 +66,25 @@ This dashboard adds a business intelligence analytics layer to the machine learn
 ## Screenshots
 
 ### Streamlit Application
-![Streamlit App](images/streamlit app.png)
+![Streamlit App](images/streamlit-app.png)
 
 ### Prediction History
-![Prediction History](images/prediction history table.png)
+![Prediction History](images/prediction-history-table.png)
 
 ### Power BI Dashboard
-![Power BI Dashboard](images/powerbi dashboard.png)
+![Power BI Dashboard](images/powerbi-dashboard.png)
 
 ### Model Accuracy Comparison
-![Accuracy Comparison](images/accuracy comparison.png)
+![Accuracy Comparison](images/accuracy-comparison.png)
 
 ### Random Forest Confusion Matrix
-![Confusion Matrix](images/confusion matrix.png)
+![Confusion Matrix](images/confusion-matrix.png)
 
 ### Random Forest Feature Importance
-![Feature Importance](images/feature importance.png)
+![Feature Importance](images/feature-importance.png)
 
 ### Logistic Regression Coefficients
-![Logistic Regression Coefficients](images/logistic regression coefficient.png)
+![Logistic Regression Coefficients](images/logistic-regression-coefficient.png)
 
 ## Project Files
 - app.py — main Streamlit application
